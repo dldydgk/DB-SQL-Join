@@ -29,7 +29,7 @@ WHERE E.SALARY BETWEEN J.MIN_SALARY AND J.MAX_SALARY;
 
 
 ## 왼쪽 외부 조인
-###$ 조인문의 왼쪽에 있는 테이블의 모든 결과를 가져 온 후 오른쪽 테이블의 데이터를 매칭하고, 매칭되는 데이터가 없는 경우 NULL로 표시한다.
+#### 조인문의 왼쪽에 있는 테이블의 모든 결과를 가져 온 후 오른쪽 테이블의 데이터를 매칭하고, 매칭되는 데이터가 없는 경우 NULL로 표시한다.
 
 ### 예시 ▼
 SELECT E.EMPLOYEE_ID AS 사원번호, E.LAST_NAME AS 사원이름, E.MANAGER_ID AS 사원의매니저번호, 
